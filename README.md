@@ -21,7 +21,7 @@ Open the .cad boardview file containing the component you want to export as a Ki
 
 Enter the component reference (for example, in the boardview I used, the CPU reference is UC1) into the Component Marking field, then click Analyze. The program will automatically read all pins belonging to the selected component, including their pin numbers and pin names.
 
-<img width="401" height="367" alt="Image" src="https://github.com/user-attachments/assets/8489ec76-1049-4cda-8b43-50657e9cf24e" />
+<img width="401" height="367" alt="151950_1775143189927_cad1 png" src="https://github.com/user-attachments/assets/82ecddf2-0afc-459d-b6ec-69234e5a24a3" />
 
 - The Component Netlist section displays every pin detected for the selected component.
 - Under Grouping by Prefixes, you can choose whether pins sharing the same prefix should be grouped into separate symbol units. This results in a much cleaner schematic. For example, all pins starting with PCH_ can be placed into their own dedicated unit, separated from the remaining pins.
@@ -33,13 +33,13 @@ Enter the component reference (for example, in the boardview I used, the CPU ref
 Below is an example of a PCH_ grouped unit containing all pins whose names begin with PCH_:
 
 
-<img width="960" height="510" alt="Image" src="https://github.com/user-attachments/assets/a7891dc5-9d7b-4d2f-be0e-b386d91ea066" />
+<img width="960" height="510" alt="153205_1775143925146_cad1 png" src="https://github.com/user-attachments/assets/26f6d8e7-0f1f-425f-89b8-5b860144c729" />
 
 
 And here is an example of a Misc unit with a limit of 100 pins per unit:
 
 
-<img width="960" height="510" alt="Image" src="https://github.com/user-attachments/assets/b2412d02-4afa-49fd-a73f-c630b7380aeb" />
+<img width="960" height="510" alt="153351_1775144031092_cad2 png" src="https://github.com/user-attachments/assets/9e6c6c2f-7740-40a5-a749-50e6cc3f0088" />
 
 
 The program automatically assigns each pin its correct pin number and pin name.
@@ -56,14 +56,14 @@ Open the .cad boardview file containing the component you want to export as a Ki
 
 Enter the component reference (for example, in the boardview I used, the CPU reference is UC1) into the Component Marking field, then click Analyze. The program will automatically read all pins belonging to the selected component, including their pin numbers and physical locations.
 
-<img width="400" height="366" alt="Image" src="https://github.com/user-attachments/assets/3748e8ee-5ff6-46fe-9a4a-39d8d3b8667b" />
+<img width="400" height="366" alt="153906_1775144345788_cad3 png" src="https://github.com/user-attachments/assets/d381ce8b-d536-4cc3-bb40-a988e721e7a7" />
 
 - A preview of the generated footprint is displayed on the left side of the window.
 - You can choose whether to generate BGA pads and specify their diameter (in my example, 0.45 mm). If the BGA option is disabled, the program automatically generates 0.2 × 0.2 mm square pads instead.
 - Once the settings are configured, simply generate and export the footprint.
 - The generated footprint can then be imported directly into KiCad.
 
-<img width="960" height="510" alt="Image" src="https://github.com/user-attachments/assets/9c86e15c-aa51-4155-8d26-fdea6f2994e1" />
+<img width="960" height="510" alt="154639_1775144799379_cad4 png" src="https://github.com/user-attachments/assets/56341ad9-db2f-4b19-8dee-2b104ad04a27" />
 
 The program automatically assigns the correct pin numbers to every generated pad.
 
