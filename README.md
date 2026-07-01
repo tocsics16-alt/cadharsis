@@ -4,18 +4,17 @@ A tool that can generate KiCad compatible footprints and symbols from .cad board
 Hey! 
 
 I made a tool, which can be used to generate KiCad compatible footprints and symbols from .cad boardview files, mainly with BGA chips in focus.
-_I have NOT found anything similiar to this on the internet._
-**It could save you weeks and months.**
-
 Footprints and symbols can be used to make your own schematics, PCBs, stencils, and whatever else pops in your mind.
+**Perfect for professional repairmen, reverse engineers, advanced hobbyists, etc...**
 
-The initial idea came when I saw [this guy build his own Ryzen based SBC](https://www.youtube.com/watch?v=9TmLN8_jEKs) from scratch, then I saw [this guy make his own BGA stencil](https://www.youtube.com/watch?v=GkDnh_v5iBM) from some pictures and measurements and realized how useful a tool like this could be for people in this field.
+The initial idea came when I saw [badzonor build his own Ryzen based SBC](https://www.youtube.com/watch?v=9TmLN8_jEKs) from scratch, then I saw [NWR Tony make his own BGA stencil](https://www.youtube.com/watch?v=GkDnh_v5iBM) using pictures and measurements.
+I realized how useful a tool like this could be for people in this field, **because it can save you days, weeks or even months of manual work.**
 
 ---
 
 ### How it works to generate a symbol
 
-_For this example I'm going to use an intel 8th gen SoC chip._
+**For this example I'm going to use a laptop boardview to generate an intel 8th gen SoC chip symbol.**
 
 Open the .cad boardview file containing the component you want to export as a KiCad symbol.
 
@@ -50,7 +49,7 @@ The program automatically assigns each pin its correct pin number and pin name.
 
 ### How it works to generate a footprint
 
-_For this example I'm going to use an intel 8th gen SoC chip._
+**For this example I'm going to use a laptop boardview to generate an intel 8th gen SoC chip footprint.**
 
 Open the .cad boardview file containing the component you want to export as a KiCad footprint.
 
